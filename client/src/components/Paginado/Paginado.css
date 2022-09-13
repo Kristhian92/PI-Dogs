@@ -1,0 +1,43 @@
+.paginado {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+  
+
+   
+}
+.paginado li {
+    display: inline;
+}
+
+.paginado li button {
+    float: left;
+    padding: 3px 10px;
+    border-radius: 8px;
+    background-color: #808000;
+    border: black 1px solid;
+    margin: 3px;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: black;
+}
+
+.paginado li button:hover{
+    background-color: #808000;
+    color: white;
+    transition: all 0.5s;
+    
+  }
+
+.paginado li button:active{
+    background-color: #808000;
+    box-shadow: 0 1px #666;
+    transform: translateY(2px);
+    
+    
+}
+
+.paginado li button:focus{
+    background-color:#808000;
+}

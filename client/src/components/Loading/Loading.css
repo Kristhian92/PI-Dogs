@@ -1,0 +1,15 @@
+.box_loading {
+    background-size: contain;
+    background-color: green;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    color: green;
+}
+
+.box_loading img {
+    height: 180px;
+    width: 180px;
+    margin-top: 10%;
+    color: green;
+}

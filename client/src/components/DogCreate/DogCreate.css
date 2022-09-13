@@ -1,0 +1,117 @@
+.divCreate{
+    background-image: url('../../styles/perrito2.png');
+    background-position-x: 446px;
+    background-color: #7DCE13;
+    background-size: cover ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    display: table;
+    
+}
+
+.buttonHome{
+    background-color: transparent;
+    float: left;
+    font-size: medium;
+    margin-left: 40px;
+    margin-top: 36px;
+    height: 43px;
+    border: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    border: white 1px solid;
+    transition:0.5s;
+    color: white;
+    
+}
+.buttonHome:hover{
+    background-color: white;
+    color: black;
+}
+
+.title{
+    color: black;
+    justify-content: center;
+    padding-right: 105px;
+}
+
+label{
+    color:black;
+    font-size: medium;
+    margin: 5px;
+}
+
+input{
+    background-color: white;
+    border-radius: 4px;
+    border-color: transparent;
+    margin: 10px;
+}
+input:hover{
+    background-color: white;
+}
+
+.allTemps{
+    display: inline-block;
+}
+.allTemps li{
+    justify-content: left;
+    display: inline;
+}
+.temp{
+    font-size: medium;
+    color: black;
+    margin: 10px;
+}
+.x{
+    background-color: white;
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+select{
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    font-size: 1em;
+    color: black;
+    border:2px solid rgba(0,0,0,0.2);
+    border-radius: 8px;
+    transition: all 0.25s ease;
+    margin: 10px;
+}
+select:hover{
+    background: white;
+    color: black;
+    border-color: rgb(71, 71, 71);
+}
+
+.boop{
+    background-color: transparent;
+    
+    border-radius: 8px;
+    font-size: medium;
+    height: 43px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    border: black 1px solid;
+}
+.boop:hover{
+    background-color: white;
+    transform:scale(1.1);
+}
+
+.error{
+    color: red;
+    font-size: small;
+    margin-top: 1;
+}
+

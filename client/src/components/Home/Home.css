@@ -1,0 +1,135 @@
+.home{
+    position: absolute;
+    width: 100%;
+    /* background-image: url('../styles/fondo3.png'); */
+    background: #2B7A0B;
+}
+
+.divNB{
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  
+  .navbar li {
+    float: left;
+    display: block;
+    color: #808000;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+    /* background-color: white; */
+  }
+  
+  .navbar input {
+    padding: 6px;
+    margin-top: 16px;
+    font-size: 17px;
+    border: none;
+    background-color:white;
+    color:#808000
+  }
+
+  
+  .elementNB{
+    height: 43px;
+    border: transparent;
+    background-color: transparent;
+    font-size: medium;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  .elementNB:hover{
+     background-color: transparent; 
+    color: white;
+  }
+
+  .content-select select{
+    cursor: pointer;
+      padding: 7px 0px;
+      height: 42px;
+    font-size: 1em;
+    color: #008080;
+    border:2px solid transparent;
+      border-radius: 8px;
+      transition: all 0.25s ease;
+  }
+  .content-select select:hover{
+    background: white;
+    color: #008080;
+    border-color: #808000;
+  }
+  .content-select select option:hover{
+    background-color: #808000; 
+  }
+
+
+.container {
+    display: flex;
+    -webkit-box-pack: center;
+    place-content: center;
+    align-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cardHome{
+    margin: 0 5px 0 5px;
+}
+
+  .welcome {
+    border-radius: 8px;
+    /* background-color: #ddbea9; */
+    border: black 1.5px solid;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    padding: 20px;
+    width: 350px;
+    transition: all 0.5s;
+    cursor: pointer;
+    left: 37%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+    
+  }
+  
+  .welcome span:after {
+    content: '\00ab';
+    opacity: 0;
+    right: -20px;
+    transition: 0.2s;
+    
+  }
+  
+  .welcome:hover span {
+    padding-left: 25px;
+  }
+  .welcome:hover{
+    background-color: transparent;
+    color: white;
+  }
+  
+  .welcome:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
